@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+
+    {% if title %}
+    <title>{{ title }} - {{ label }}</title>
+    {% else %}
+    <title>{{ label }}</title>
+    {% endif %}
+
+    {% if prev_url %}
+    <link rel="prev" href="{{ prev_url }}">
+    {% endif %}
+    {% if next_url %}
+    <link rel="next" href="{{ next_url }}">
+    {% endif %}
+
+    {{ header }}
+
+    <link rel="stylesheet" type="text/css" href="thebe_assets/style.css">
+
+    <script src="thebe_assets/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="thebe_assets/main-built.js" type="text/javascript"></script>
+    <script src="thebe_assets/page.js" type="text/javascript"></script>
+
+  </head>
+  <body data-type="book">
+    {% if prev_url %}
+    &laquo; <a href="{{ prev_url }}">{{ prev_label }}</a>
+    {% endif %}
+
+    {{ content }}
+
+    {% if next_url %}
+    <a href="{{ next_url }}">{{ next_label }}</a> &raquo;
+    {% endif %}
+  </body>
+</html>

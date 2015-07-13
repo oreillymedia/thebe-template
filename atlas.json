@@ -1,0 +1,40 @@
+{
+  "branch": "master",
+  "files": [
+    "index.md"
+  ],
+  "formats": {
+    "pdf": {
+      "version": "web",
+      "toc": false,
+      "index": false,
+      "syntaxhighlighting": true,
+      "show_comments": false
+    },
+    "epub": {
+      "toc": false,
+      "index": false,
+      "syntaxhighlighting": true,
+      "epubcheck": true,
+      "show_comments": false
+    },
+    "mobi": {
+      "toc": false,
+      "index": false,
+      "syntaxhighlighting": true,
+      "show_comments": false
+    },
+    "html": {
+      "toc": false,
+      "index": false,
+      "syntaxhighlighting": false,
+      "show_comments": false,
+      "consolidated": false,
+      "fragment" : false,
+      "scripts" : [],
+    }
+  },
+  "theme": "oreillymedia/atlas_tech1c_theme",
+  "title": "Atlas Thebe Skeleton",
+  "thebe_url" : "https://oreillyorchard.com:8000/"
+}

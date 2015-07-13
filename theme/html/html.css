@@ -1,0 +1,19 @@
+@import "application.css";
+
+.page {
+  padding: 2rem 4rem;
+}
+
+.cell {
+  width: 100% !important;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em !important;
+}
+
+section.page > h1:first-of-type {
+  font-size: 4em;
+  margin-bottom: 1.5em;
+}
