@@ -15,7 +15,6 @@ In code blocks you can run python code. Usually you will start by importing libr
 import numpy as np
 # Import mathplotlib
 import matplotlib.pyplot as plt
-
 </pre>
 
 #### Output
@@ -34,7 +33,6 @@ Or a more complex graph:
 <pre data-code-language="python"
      data-executable="true"
      data-type="programlisting">
-
 plt.plot([1,19,21,8,6])
 plt.ylabel('Speed')
 
