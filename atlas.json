@@ -31,7 +31,7 @@
       "show_comments": false,
       "consolidated": false,
       "fragment" : false,
-      "scripts" : [],
+      "scripts" : []
     }
   },
   "theme": "oreillymedia/atlas_tech1c_theme",
